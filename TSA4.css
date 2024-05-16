@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Eater&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Eater' 
+}
+
+.announcement-container {
+    position: relative;
+    text-align: center;
+    width: 100vw; /* Ensure container width covers the entire viewport */
+    height: 100vh; /* Ensure container height covers the entire viewport */
+    background-image: url('background\ feu.png'); /* Specify the path to your background image */
+    background-size: cover; /* Cover the entire container with the background image */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+}
+
+.logo {
+    margin-top: 20px;
+    width: 150px; /* Adjust size as needed */
+}
+
+.announcement-heading {
+    margin-top: 50px;
+    font-size: 36px;
+    color: #004d40; /* Dark Green */
+}
+
+.announcement-subheading {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #004d40; /* Dark Green */
+}
+
+.announcement-content {
+    margin-top: 30px;
+    padding: 0 20px;
+    color: #333; /* Dark Grey */
+    font-size: 18px;
+}
+
+.announcement-content p {
+    margin-bottom: 20px;
+}
